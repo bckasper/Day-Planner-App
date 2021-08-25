@@ -75,10 +75,8 @@ function addTimeBlockClasses(){
             console.log(timeBlock[i].hour+" is equal to "+currentHour)
         }
 
-        // Will keep whatever input the user saved into local storage for each timeblock
-        var localCache = localStorage.getItem(timeBlock[i].element.attr("id"))
-        timeBlock[i].innerHTML = localCache
-        console.log(localCache)
+        // Will keep whatever input the user saved into local storage for each timeblock 
+        timeBlock[i].element.attr("value", localStorage.getItem(timeBlock[i].element.attr("id")))
     }
 }
 
