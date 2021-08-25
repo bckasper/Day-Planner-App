@@ -1,6 +1,7 @@
 // Document variables
 var currentDay = $('#currentDay')
 var saveBtns = $('button')
+var clearBtn = $('#clear')
 
 // Created an array of all the <input> timeblocks so I can loop through and compare to the current hour and apply classes
 var timeBlock = [
@@ -93,4 +94,9 @@ $(document).ready(function(){
         
         localStorage.setItem(itemHour, inputItem)
     })
+})
+
+clearBtn.on("click", function(){
+    localStorage.clear();
+    location.reload();
 })
