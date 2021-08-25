@@ -67,7 +67,21 @@ textarea {
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
-  color: #000000;
+  font-size: 50px;
   transition: all 0.3s ease-in-out;
+}
+
+#clear{
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding: 1rem;
+  background-color: #030949;
+  color: white;
+  max-width: fit-content;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#clear:hover{
+  cursor: pointer;
 }
