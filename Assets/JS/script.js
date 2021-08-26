@@ -3,7 +3,7 @@ var currentDay = $('#currentDay')
 var saveBtns = $('button')
 var clearBtn = $('#clear')
 
-// Created an array of all the <input> timeblocks so I can loop through and compare to the current hour and apply classes
+// Created an array of all the <input> timeblocks so I can loop through and compare their hour data to the current hour and apply classes
 var timeBlock = [
     {
         "element": $('#timeblock-1'),
@@ -96,6 +96,7 @@ $(document).ready(function(){
     })
 })
 
+// Here is a button that clears the locally stored planner items. In my UX testing I found it nicer to have one button to clear the planner if I wanted to start a new day (rather than typing over each existing item and re-saving)
 clearBtn.on("click", function(){
     localStorage.clear();
     location.reload();
