@@ -39,5 +39,5 @@ Below are the links to the live application (.io URL) and the link to the Github
 
 ## Screenshots
 ### Screenshot taken at 11AM
-![Screenshot of the app at 11AM](Assets/Screenshots/Planning_App_11A.png) 
+![Screenshot of the app at 11AM](Assets/Screenshots/Planning_App_11AM.png) 
 
