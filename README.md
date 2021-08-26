@@ -31,9 +31,9 @@ This is a simple application that allows the user to plan out a single work day 
 ## Accessing the application
 Below are the links to the live application (.io URL) and the link to the Github Repo.
 
-**Live URL:** 
+**Live URL:** https://bckasper.github.io/Day-Planner-App/
 
-**Github Repo:** 
+**Github Repo:** https://github.com/bckasper/Day-Planner-App 
 
 
 
